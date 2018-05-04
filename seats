@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//fb.me/react-0.14.3.js"></script>
+<script src="//fb.me/react-dom-0.14.3.js"></script>
+  <meta charset="utf-8">
+  <style type="text/css">
+ #front-seats{
+  width:20%;  
+  font-family:sans-serif;
+}
+ #other-seats{
+  width:20%;  
+  font-family:sans-serif;
+}
+  box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+  
+  </style>
+  <title>Seats</title>
+</head>
+<body>
+<div>
+ <table id="front-seats">
+  <thead>
+    <tr>
+	 <th>Front Seats</th>
+	 </tr>
+	 <tr>
+      <th>Title</th><th>Booked</th><th>Passenger</th></tr>
+      
+	  
+  
+  </thead>
+  <tbody>
+    <tr>
+      <td>Driver</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>F1</td>
+      <td>Booked</td>
+      <td></td>
+      </tr>
+	   <tr>
+      <td>F2</td>
+      <td>Booked</td>
+      <td></td>
+      </tr>
+  </tbody>
+</table>
+</div>
+<div class ='box'>
+ <table id="other-seats">
+  <thead>
+    <tr>
+	 <th>Other Seats</th>
+	 </tr>
+	 <tr>
+      <th>Title</th>
+      <th>Availlable Seats</th>
+	  
+      </tr>
+  </thead>
+  <tbody>
+    <tr id ="1">
+      <td>1A</td>
+      <td>1</td>
+      
+    </tr>
+    <tr id ="2">
+      <td>1B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	   <tr id ="3">
+      <td>1C</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="4">
+      <td>1D</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	    <tr id ="5">
+      <td>2A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="6">
+      <td>2B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	     <tr id ="7">
+      <td>2C</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	   <tr id ="8">
+      <td>3A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	  <tr id ="9">
+      <td>3D</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	  <tr id ="10">
+      <td>4A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="11">
+      <td>4B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	     <tr id ="12">
+      <td>4C</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	     <tr id ="13">
+      <td>4D</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	     <tr id ="14">
+      <td>4C</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	       <tr id ="15">
+      <td>5A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	  <tr id ="16">
+      <td>5B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	  <tr id ="17">
+      <td>5C</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	   <tr id ="18">
+      <td>5D</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	  <tr id ="19">
+	  <td>6A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="20">
+	  <td>6B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="21">
+	  <td>6C</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	     <tr id ="22">
+	  <td>6D</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	      <tr id ="23">
+	  <td>7A</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	   <tr id ="24">
+	  <td>7B</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	    <tr id ="25">
+	  <td>7C</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	   <tr id ="26">
+	  <td>7D</td>
+      <td>0</td>
+      <td></td>
+      </tr>
+	   <tr id ="27">
+	  <td>8A</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="28">
+	  <td>8B</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="29">
+	  <td>8C</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+	    <tr id ="30">
+	  <td>8D</td>
+      <td>1</td>
+      <td></td>
+      </tr>
+  </tbody>
+</table>
+</div>
+
+  <div id="impl" class="box" />
+</body>
+</html>
