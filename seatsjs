@@ -1,0 +1,6 @@
+function cellsForData(data) {
+    return [
+        <td>Data 1A</td>,
+        <td>Data 1B</td>
+    ];
+}
